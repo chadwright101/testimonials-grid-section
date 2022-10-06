@@ -1,0 +1,52 @@
+@use "../abstracts/" as *;
+@use "../base/fonts" as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: $secWhite;
+}
+
+h1,
+h2 {
+  font-size: $fsParagraph;
+  font-weight: 500;
+
+  @include mq {
+    font-size: 0.75rem;
+  }
+}
+
+h2 {
+  opacity: 50%;
+  font-size: 0.7rem;
+
+  @include mq {
+    font-size: 0.65rem;
+  }
+}
+
+h3 {
+  font-size: 1.2075rem;
+  font-weight: 500;
+  color: $lightGrey;
+
+  @include mq {
+    font-size: 1.12rem;
+  }
+}
+
+p {
+  font-weight: 500;
+  font-size: $fsParagraph;
+  opacity: 70%;
+
+  @include mq {
+    font-size: 0.755rem;
+  }
+}

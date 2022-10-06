@@ -1,0 +1,17 @@
+{
+  "name": "testimonials-grid-section",
+  "version": "1.0.0",
+  "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "dev": "parcel ./src/*.html --open --no-source-maps",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}

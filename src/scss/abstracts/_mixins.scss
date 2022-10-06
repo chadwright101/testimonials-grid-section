@@ -1,0 +1,12 @@
+@use "./variables" as *;
+
+@mixin mq {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin quotation {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-position: right 1rem top 0rem;
+}
